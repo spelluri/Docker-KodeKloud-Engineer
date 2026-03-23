@@ -1,0 +1,10 @@
+1. docker run --name nginx_3 nginx:alpine
+
+Notes:
+Docker does this automatically:
+
+If you run a container using an image that does not exist locally
+
+Docker will pull (download) the image from Docker Hub automatically
+
+So you do NOT need to pull manually, but you can.
